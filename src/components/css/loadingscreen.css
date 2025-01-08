@@ -1,0 +1,74 @@
+/* Add styles here */
+/* LoadingScreen.css */
+.fixed {
+    position: fixed;
+  }
+  
+  .inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .z-50 {
+    z-index: 50;
+  }
+  
+  .bg-black {
+    background-color: black;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .loading-text {
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .text-white {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .absolute {
+    position: absolute;
+  }
+  
+  .bottom-8 {
+    bottom: 2rem;
+  }
+  
+  .left-8 {
+    left: 2rem;
+  }
+  
+  .right-8 {
+    right: 2rem;
+  }
+  
